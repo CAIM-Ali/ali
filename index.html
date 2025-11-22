@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>متجر أليف - منتجات تقنية وأسلوب حياة</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">آ</span>
+      <div class="brand-text">
+        <strong>متجر أليف</strong>
+        <small>تقنية | أناقة | راحة</small>
+      </div>
+    </div>
+    <nav class="nav" aria-label="روابط أساسية">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        ☰
+      </button>
+      <ul id="nav-menu" class="nav-links">
+        <li><a href="#hero">الرئيسية</a></li>
+        <li><a href="#categories">التصنيفات</a></li>
+        <li><a href="#products">المنتجات</a></li>
+        <li><a href="#reviews">آراء العملاء</a></li>
+        <li><a href="#newsletter">العروض</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <button class="ghost">تسجيل الدخول</button>
+      <button class="primary">عربة التسوق (2)</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">عروض حصرية لهذا الأسبوع</p>
+        <h1>كل ما تحتاجه لتعيش تجربة تقنية راقية في مكان واحد</h1>
+        <p class="subtitle">
+          أجهزة ذكية، ملحقات أنيقة، ومستقبل من الراحة؛ اشترِ بثقة واحصل على توصيل سريع
+          وضمان استرجاع لمدة 30 يومًا.
+        </p>
+        <div class="hero-actions">
+          <button class="primary">تسوق الآن</button>
+          <button class="ghost">اكتشف الإصدارات الجديدة</button>
+        </div>
+        <div class="stats">
+          <div>
+            <strong>+1500</strong>
+            <span>منتج مختار بعناية</span>
+          </div>
+          <div>
+            <strong>4.9/5</strong>
+            <span>متوسط تقييمات العملاء</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>دعم مباشر</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card" role="presentation">
+        <div class="badge">الأكثر مبيعًا</div>
+        <h3>حزمة المنزل الذكي</h3>
+        <p>مكبر صوت ذكي + إضاءة ذكية + مستشعرات أمان</p>
+        <div class="price-row">
+          <span class="price">549 ر.س</span>
+          <span class="old-price">699 ر.س</span>
+          <span class="discount">خصم 20٪</span>
+        </div>
+        <ul class="perks">
+          <li>توصيل مجاني خلال 48 ساعة</li>
+          <li>تركيب منزلي وتشغيل مجاني</li>
+          <li>دعم فني عبر الفيديو</li>
+        </ul>
+        <button class="primary full">أضف للعربة</button>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="section-header">
+        <p class="eyebrow">اختر مسارك</p>
+        <h2>تسوق حسب التصنيف</h2>
+        <p class="subtitle">تصنيفات مصممة لتناسب أسلوبك وطريقة عملك</p>
+      </div>
+      <div class="category-grid">
+        <article class="card category">
+          <div class="icon" aria-hidden="true">💡</div>
+          <h3>المنزل الذكي</h3>
+          <p>إضاءة ذكية، أقفال متصلة، ومستشعرات أمان متكاملة.</p>
+          <a class="link" href="#products">استكشف</a>
+        </article>
+        <article class="card category">
+          <div class="icon" aria-hidden="true">🎧</div>
+          <h3>الصوتيات</h3>
+          <p>سماعات لاسلكية، مكبرات محمولة، وأنظمة صوت منزلية.</p>
+          <a class="link" href="#products">استكشف</a>
+        </article>
+        <article class="card category">
+          <div class="icon" aria-hidden="true">⌚</div>
+          <h3>الملبوسات الذكية</h3>
+          <p>ساعات ذكية، أساور لياقة، وأكسسوارات مقاومة للماء.</p>
+          <a class="link" href="#products">استكشف</a>
+        </article>
+        <article class="card category">
+          <div class="icon" aria-hidden="true">🖥️</div>
+          <h3>مكاتب وإنتاجية</h3>
+          <p>شاشات بدقة عالية، ملحقات مكتبية، وأدوات تنظيم.</p>
+          <a class="link" href="#products">استكشف</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="section-header">
+        <p class="eyebrow">مختارات المحررين</p>
+        <h2>منتجات مميزة لهذا الشهر</h2>
+        <p class="subtitle">عروض محبوبة مع ضمان أصلي وتوصيل سريع</p>
+      </div>
+      <div class="product-grid">
+        <article class="card product">
+          <div class="pill">جديد</div>
+          <h3>سماعة إلغاء الضجيج برو</h3>
+          <p>صوت محيطي، شحن 30 ساعة، ومقاومة للعرق.</p>
+          <div class="price-row">
+            <span class="price">899 ر.س</span>
+            <span class="old-price">999 ر.س</span>
+          </div>
+          <button class="primary full">أضف للعربة</button>
+        </article>
+        <article class="card product">
+          <div class="pill success">متوفر</div>
+          <h3>ساعة لياقة بريميوم</h3>
+          <p>تتبع نوم، GPS مدمج، وتنبيهات صحية في الوقت الحقيقي.</p>
+          <div class="price-row">
+            <span class="price">649 ر.س</span>
+          </div>
+          <button class="primary full">أضف للعربة</button>
+        </article>
+        <article class="card product">
+          <div class="pill warning">خصم</div>
+          <h3>لوحة مفاتيح ميكانيكية</h3>
+          <p>إضاءة RGB، هيكل من الألمنيوم، ومحاور هادئة.</p>
+          <div class="price-row">
+            <span class="price">379 ر.س</span>
+            <span class="old-price">449 ر.س</span>
+          </div>
+          <button class="primary full">أضف للعربة</button>
+        </article>
+        <article class="card product">
+          <div class="pill">حزمة</div>
+          <h3>منظومة مكتب متكاملة</h3>
+          <p>حامل شاشة، لوحة مفاتيح، ماوس مريح، وكابل منظم.</p>
+          <div class="price-row">
+            <span class="price">549 ر.س</span>
+          </div>
+          <button class="primary full">أضف للعربة</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contrast">
+      <div class="cta">
+        <div>
+          <p class="eyebrow">خدمة مميزة</p>
+          <h2>برنامج العناية الممتدة</h2>
+          <p class="subtitle">
+            احصل على صيانة سنوية مجانية، قطع غيار أصلية، ودعم خلال 24 ساعة لأي منتج تم
+            شراؤه من متجر أليف.
+          </p>
+          <div class="cta-actions">
+            <button class="primary">اشترك الآن</button>
+            <button class="ghost">تعرف على المزايا</button>
+          </div>
+        </div>
+        <ul class="ticks">
+          <li>حماية لمدة عامين</li>
+          <li>خدمة استبدال فورية</li>
+          <li>تحديثات برمجية مجانية</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="reviews" class="section">
+      <div class="section-header">
+        <p class="eyebrow">ثقة عملائنا</p>
+        <h2>آراء حقيقية تدعم اختيارك</h2>
+        <p class="subtitle">قصص نجاح من عملاء سعداء بجودة منتجاتنا وخدمتنا</p>
+      </div>
+      <div class="review-grid">
+        <article class="card review">
+          <p class="quote">“توصيل سريع وخدمة دعم ممتازة، التجربة كانت سلسة من البداية للنهاية.”</p>
+          <div class="reviewer">
+            <div class="avatar" aria-hidden="true">س</div>
+            <div>
+              <strong>سارة المطيري</strong>
+              <small>عميلة منذ 2021</small>
+            </div>
+          </div>
+        </article>
+        <article class="card review">
+          <p class="quote">“جودة الأجهزة رائعة وأسعارهم منافسة. أحببت خيارات الضمان والتمديد.”</p>
+          <div class="reviewer">
+            <div class="avatar" aria-hidden="true">م</div>
+            <div>
+              <strong>محمود الشرقي</strong>
+              <small>مستخدم تقني</small>
+            </div>
+          </div>
+        </article>
+        <article class="card review">
+          <p class="quote">“الموقع واضح والتصنيفات منظمة. وجدت كل ما أحتاجه لمكتبي بسرعة.”</p>
+          <div class="reviewer">
+            <div class="avatar" aria-hidden="true">ل</div>
+            <div>
+              <strong>ليان العساف</strong>
+              <small>مصممة تجربة مستخدم</small>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section newsletter">
+      <div class="newsletter-inner">
+        <div>
+          <p class="eyebrow">ابق على اطلاع</p>
+          <h2>اشترك لتصلك عروض الثلاثاء التقني</h2>
+          <p class="subtitle">خصومات إضافية ونصائح تقنية أسبوعية مباشرة إلى بريدك.</p>
+        </div>
+        <form class="newsletter-form">
+          <label class="sr-only" for="email">بريدك الإلكتروني</label>
+          <input id="email" name="email" type="email" placeholder="بريدك الإلكتروني" required />
+          <button class="primary" type="submit">اشترك</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <div class="brand">
+        <span class="logo">آ</span>
+        <div class="brand-text">
+          <strong>متجر أليف</strong>
+          <small>أدوات تشبهك</small>
+        </div>
+      </div>
+      <p class="footer-text">تسوق واثقًا بمنتجات أصلية وخدمة عملاء مستمرة.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>الدعم</h4>
+        <a href="#">مركز المساعدة</a>
+        <a href="#">الضمان والاستبدال</a>
+        <a href="#">تتبع الشحنات</a>
+      </div>
+      <div>
+        <h4>الشركة</h4>
+        <a href="#">من نحن</a>
+        <a href="#">الوظائف</a>
+        <a href="#">المدونة</a>
+      </div>
+      <div>
+        <h4>تابعنا</h4>
+        <a href="#">تويتر</a>
+        <a href="#">إنستغرام</a>
+        <a href="#">لينكدإن</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
